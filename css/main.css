@@ -1,0 +1,107 @@
+.sec5-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+}
+
+.sec5-block__item {
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid #3D5099;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 50px;
+}
+
+.sec5-block__text {
+    padding: 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.sec5-block__text p {
+    font-weight: 400;
+}
+
+.sec5-pack {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.how-order-row {
+    padding-top: 50px;
+}
+
+.how-order-card {
+    padding: 32px;
+    background: #82959161;
+    min-height: 295px;
+    font-size: 24px;
+    text-align: center;
+    font-family: GothicBold, sans-serif;
+    border-radius: 15px;
+    line-height: 35px;
+    margin: 0 auto 15px;
+}
+
+.how-order-card span {
+    color: white;
+}
+
+.how-order-card img {
+    display: block;
+    margin: 0 auto 25px;
+}
+
+@media (max-width: 1198px) {
+    .sec5-block__item {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 1170px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 992px) {
+    .sec5-block {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        display: block;
+    }
+    .sec5-block__item {
+        display: block;
+        overflow: hidden;
+        margin: 0 auto 30px;
+    }
+    .sec5-block__item img {
+        display: block;
+        margin: 0 auto;
+    }
+    .sec5-block__text {
+        padding-top: 10px;
+        display: block;
+    }
+}

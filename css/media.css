@@ -1,0 +1,411 @@
+@media screen and (max-width: 1770px) {
+    .screen-2 {
+        background: url('../img/sc2-bg_full_clear.jpg');
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .screen-5 {
+        background: no-repeat 100% center url(../img/ass.png), no-repeat center/cover url(../img/sc5-bg.jpg);
+    }
+}
+
+@media screen and (max-width: 1198px) {
+    .screen-2__statistic {
+        padding: 100px 15px;
+        height: 350px;
+        width: 45%;
+        margin: 30px 15px;
+    }
+    .screen-3__list-item {
+        font-size: 18px;
+    }
+    .screen-3__title {
+        padding-top: 0px;
+    }
+    .screen-3__list-item.item-1:after {
+        display: none;
+    }
+    .screen-3__list-item.item-2::after {
+        display: none;
+    }
+    img.screen-3__img {
+        width: 48%;
+    }
+    .screen-5 {
+        background: #040203 no-repeat 138% center url(../img/ass.jpg);
+    }
+    .screen-5__price {
+        font-size: 55px;
+    }
+    .screen-5__old-price {
+        font-size: 22px;
+    }
+    .screen-6__card::before {
+        display: none;
+    }
+    .screen-6__card__text-wrap {
+        width: 67%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .benifits-line__item {
+        font-size: 14px;
+        font-weight: normal;
+        padding-bottom: 30px;
+    }
+    .benifits-line__button {
+        padding: 10px 0px;
+        width: 250px;
+        margin: 0px auto;
+    }
+    .screen-1__benefits-block-2 {
+        display: block;
+    }
+    .screen-1 {
+        background-position: center;
+    }
+    .screen-1__benefits-block-2__item {
+        margin: 40px 0px;
+        max-width: unset;
+    }
+    .screen-1::before {
+        opacity: 0.3;
+    }
+    .screen-1__bottom-text {
+        padding-top: 0px;
+    }
+    .screen-1__product-img img {
+        width: 60%;
+    }
+    img.screen-3__img {
+        float: none;
+    }
+    .screen-3__title {
+        font-size: 40px;
+        padding-top: 0px;
+    }
+    .screen-3__img {
+        width: 80%;
+    }
+    .screen-3__sub-title {
+        font-size: 22px;
+    }
+    .screen-5 {
+        background: no-repeat center/cover url(../img/sc5-bg.jpg);
+    }
+    .screen-5__bottom__title {
+        font-size: 36px;
+        padding-bottom: 10px;
+    }
+    .screen-5__bottom__sub-title {
+        font-size: 34px;
+    }
+    .screen-5__bottom__text {
+        text-transform: unset;
+        font-size: 18px;
+    }
+    .screen-5__bottom {
+        text-align: center;
+    }
+    .screen-6__card__text-wrap {
+        width: 80%;
+        font-size: 16px;
+    }
+    .screen-6__card__img {
+        width: 100%;
+    }
+    .screen-7 {
+        padding-bottom: 0;
+    }
+    .screen-8__title {
+        font-size: 32px;
+        padding-top: 15px;
+    }
+    .screen-8__text {
+        padding: 8px;
+        font-size: 16px;
+    }
+    .screen-8__img {
+        position: absolute;
+        top: 20px;
+        width: 100%;
+    }
+    .screen-8 {
+        height: auto;
+    }
+    .title_logo {
+        font-size: 48px;
+    }
+    .screen-9__title {
+        font-size: 28px;
+    }
+    .review-wrap {
+        display: block;
+    }
+    .review-card:first-child {
+        margin-top: 0px;
+    }
+    .review-card {
+        max-width: 100%;
+        min-height: 200px;
+        margin: 70px 0;
+    }
+    .review__img {
+        top: -50px;
+        width: 100px;
+    }
+    .review-card__body {
+        padding: 70px 10px 0px 10px;
+    }
+    .screen-9__title {
+        padding: 60px 50px 80px 50px;
+    }
+    .hidden-sm {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .buton-wrap{
+        padding-bottom:20px;
+    }
+    .screen-9__title {
+        padding: 60px 5px 80px 5px
+    }
+    .title_logo {
+        font-size: 36px;
+    }
+    .screen-5__title,
+    .screen-4__title .p1 {
+        font-size: 44px;
+    }
+    img.screen-3__img {
+        float: right;
+    }
+    .screen-1 {
+        max-height: none;
+    }
+    .hidden-xs {
+        display: none;
+    }
+    .screen-1__benefits-block-2 {
+        display: block;
+        margin: 0px auto;
+        max-width: 277px;
+    }
+    .screen-1__bottom-text {
+        padding: 20px;
+        text-align: center;
+    }
+    .benifits-line__item {
+        width: 250px;
+        margin: 0px auto;
+        padding-bottom: 15px;
+				gap:14px;
+    }
+    .screen-1__benefits-block-1 {
+        flex-wrap: wrap;
+    }
+    .screen-1__benefits-block-1__item {
+        margin: 20px 0px;
+    }
+    .timer__top {
+        justify-content: space-between;
+    }
+    .timer-top__right {
+        padding: 20px;
+    }
+    .timer-top__left {
+        padding-top: 30px;
+        padding-right:15px;
+    }
+    .timer__price-wrap {
+        margin: 15px auto;
+        padding: 0 5px;
+    }
+    .screen-1__title {
+        font-size: 65px;
+    }
+    .screen-1__title span {
+        font-size: 48px;
+    }
+    .screen-1__benefits-block-1__item::before {
+        display: none;
+    }
+    .screen-2::before {
+        display: none;
+    }
+    .screen-2__statistic {
+        padding: 50px 15px;
+        height: 200px;
+        width: 95%;
+    }
+    .statistic__data {
+        font-size: 40px;
+    }
+    .statistic__gender {
+        font-size: 20px;
+        padding-bottom: 6px;
+    }
+    .statistic__text {
+        font-size: 18px;
+    }
+    .screen-3__img {
+        min-width: 350px;
+        width: 100%;
+    }
+    .screen-4 {
+        height: auto;
+        background-size: cover;
+    }
+    .screen-4__benefits {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    .screen-4__benefits-item:nth-child(odd) {
+        margin-top: 0px;
+    }
+    .screen-4__title {
+        font-size: 40px;
+        line-height: 1.5em;
+        padding-top: 50px;
+    }
+    .benefist_num {
+        font-size: 60px;
+        display: inline;
+        width: 47px !important;
+        height: 133px;
+        background-image: none !important;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .screen-5__bottom {
+        padding: 31px 0px 0px 0px;
+    }
+    .screen-5__bottom .button {
+        margin: 0px auto;
+    }
+    .screen-5__bottom__text {
+        width: 50%;
+        margin: 0px auto;
+    }
+    .screen-5__bottom__title {
+        padding-bottom: 0px;
+    }
+    .screen-5__old-price {
+        padding: 0px 0px 10px 0px;
+    }
+    .screen-5__price {
+        line-height: 1em;
+        padding-top: 13px;
+    }
+    .screen-5__bottom__title {
+        padding-top: 20px;
+    }
+    .screen-5__bottom {
+        padding-bottom: 30px;
+        background: url(../img/sc5-bg_bottom.jpg)32%;
+        background-size: cover;
+    }
+    .screen-6__img-container {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+        background: #2d6d9a;
+        margin-bottom: 15px;
+    }
+    .screen-6__card__text-wrap {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .screen-6__card-autor {
+        position: static !important;
+        padding: 15px 0;
+    }
+    .screen-6__card__text-wrap {
+        padding: 0px 15px;
+    }
+    .screen-6__card__text-wrap {
+        font-size: 16px;
+    }
+    .screen-6__card.card-2 .screen-6__card__img {
+        left: 0px;
+    }
+    img.screen-6__card__img {
+        width: 100%;
+        border-radius: 34px;
+    }
+    .screen-6__card {
+        flex-direction: column;
+        align-items: center;
+    }
+    .screen-6__card.card-1 {
+        margin-top: 60px;
+    }
+    .screen-6__card.card-1 {
+        background-position: 94% 99%;
+    }
+    .screen-6__card.card-2 {
+        background-position: 98% 100%;
+    }
+    .formula__img {
+        padding-top: 15px;
+        width: 60%;
+        margin: 0px auto;
+        display: block;
+    }
+    .title_logo {
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .screen-2 {
+        padding: 50px 0px;
+    }
+    .screen-2__title {
+        font-size: 28px;
+    }
+    .screen-2__statistic {
+        padding: 30px 15px;
+    }
+    .statistic__data {
+        font-size: 36px;
+    }
+    .screen-3 {
+        padding-left: 0px;
+    }
+    .screen-3__title {
+        font-size: 30px;
+        padding-bottom: 12px;
+    }
+    .screen-3__list-item::before {
+        display: none;
+    }
+    .screen-4__title {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .screen-4__benefits-item {
+        margin: 15px;
+    }
+    .screen-5__sub-title {
+        font-size: 30px;
+    }
+    .screen-5__benefits-item__text-wrap {
+        padding: 15px;
+    }
+    .screen-7__title {
+        font-size: 30px;
+    }
+    .screen-7 {
+        padding: 30px 0px;
+    }
+    .screen-9 {
+        padding-bottom: 0px;
+    }
+}
